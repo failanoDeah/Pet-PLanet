@@ -1,0 +1,110 @@
+body {
+	background-color: #dedede;
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+}
+
+/**-------------- Navigation style ---------------**/
+.dropdown {
+	margin: 0 auto;
+}
+
+nav {
+	height: 60px;
+	background: #042331;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.logo{
+	padding: 0px 0 0 80px;
+	width: 150px;
+	height: 90px;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	float: right;
+	margin-right: 30px;
+}
+
+nav ul li {
+	background: #042331;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+	z-index: 3;
+}
+
+nav ul li a {
+	display: block;
+	padding: 0 15px;
+	color: white;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 15px;
+	text-align: center;
+}
+
+nav ul li a:hover {
+	background: #243342;
+}
+
+nav ul ul {
+	position: absolute;
+	top: 60px;
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul ul li {
+	width: 128px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+
+
+/**-------------- About Us ---------------**/
+
+h1 {
+	position: relative;
+	margin-top: 70px;
+	font-family: fantasy;
+	font-size: 50px;
+	color: #002e48;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+p {
+	position: relative;
+	margin-top: 30px;
+	font-family: arial;
+	line-height: 150%;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #002e48;
+	text-align: justify;
+	padding: 0 250px 0 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
